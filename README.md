@@ -1,2 +1,2 @@
 ﻿# Welcome To My Portfolio Website
-Still under development!!!
+My website is currently in development stage and ill be live shortly!
