@@ -1,2 +1,2 @@
-﻿# Currently under construction!  
-My website is currently in development stage and it will be live shortly!
+﻿# My Personal Portfolio Website  
+Feel free to browse around and don't hesitate to contact me!
