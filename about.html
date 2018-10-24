@@ -7,7 +7,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/about.css">
+  <link rel="stylesheet" href="/assets/css/@media.css">
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 
   <title>About Me</title>
@@ -17,84 +18,85 @@
 
 <body>
 
-  <!-- MENU OVERLAY -->
+  <div id="loader"></div>
 
-  <div class="icon">
-    <div class="hamburger"></div>
-  </div>
-  <div class="overlay"></div>
-  <div class="menu">
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li class="active">
-        <a href="about.html">About</a>
-      </li>
-      <li>
-        <a href="work.html">Work</a>
-      </li>
-      <li>
-        <a href="resume.html">Resume</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
+  <header class="header">
 
-  <!--PAGE HEADER-->
+    <!-- ICON -->
+    <section class="nav-icon">
+      <span class="icon"></span>
+    </section>
+    <!-- MENU OVERLAY -->
+    <section class="nav-overlay"></section>
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <ul class="navigation_ul">
+        <li><a href="index.html" data-text="Home">Home</a></li>
+        <li class="active"><a href="about.html" data-text="About">About</a></li>
+        <li><a href="work.html" data-text="Work">Work</a></li>
+        <li><a href="resume.html" data-text="Resume">Resume</a></li>
+        <li><a href="contact.html" data-text="Contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <header id="page-header" class="overlay-header">
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 p-2 m-auto text-center text-white">
-            <h1>About <span class="txt" style="border-right:none;">Me</span></h1>
-          </div>
-        </div>
-      </div>
   </header>
 
-  <!-- ABOUT SECTION -->
+  <!--PAGE HEADER-->
+  <section class="content">
 
-  <main>
-    <section id="about-section" class="py-3 my-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 pt-3">
-            <h1>A Little About <span class="txt" style="border:none;">Me</span>...</h1>
-
-            <hr>
-
-            <p class="lead">I’m a self-taught web developer and my passion is learning new technologies and building
-              things. I love working on projects and coding every day. I also enjoy walking, watching series occasional
-              gaming and
-              drinking coffee, lots of it. If I'm not brushing up on my Front-End, JavaScript or Back-End Skills I
-              am seeking good
-              employment to further my knowledge and learning so I can grow to be better at what I do and be a great
-              asset to the company that employs me.</p>
-            <h3 class="pt-3">More About <span class="txt-secondary">Me</span>...</h3>
-
-            <hr>
-
-            <p class="lead">I currently don’t have any working experience as a developer, but I do have 1 and a half
-              year's of
-              experience developing and building things. I would love
-              to work for a company where I can be a valuable asset, even if it means to start at the lowest level to
-              keep
-              learning and growing within the company to become a better developer.
-              I am very trustworthy, loyal, hardworking, punctual and creative. I also enjoy working in a team
-              environment. Please contact me below to learn more and I will get back to you soonest!
-            </p>
+    <main class="main-content">
+      <section id="page-header" class="overlay-header">
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 p-2 m-auto text-center text-white">
+                <h1>About <span class="txt" style="border-right:none;">Me</span></h1>
+              </div>
+            </div>
           </div>
-          <div class="col-md-5 d-flex flex-column justify-content-start align-items-start">
-            <img class="about-img img-fluid rounded-circle d-none d-md-block" src="/assets/img/Hylton.png" alt="portrait image">
+      </section>
+
+
+      <!-- ABOUT SECTION -->
+
+      <section id="about-section" class="py-3 my-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 pt-3">
+              <h1>A Little About Me...</h1>
+
+              <hr>
+
+              <p class="lead">I’m a self-taught web developer and my passion is learning new technologies and building
+                things. I love working on projects and coding every day. I also enjoy walking, watching series
+                occasional
+                gaming and
+                drinking coffee, lots of it. If I'm not brushing up on my Front-End, JavaScript or Back-End Skills I
+                am seeking good
+                employment to further my knowledge and learning so I can grow to be better at what I do and be a great
+                asset to the company that employs me.</p>
+              <h3 class="pt-3">More About <span class="txt">Me</span>...</h3>
+
+              <hr>
+
+              <p class="lead">I currently don’t have any working experience as a developer, but I do have 1 and a half
+                year's of
+                experience developing and building things. I would love
+                to work for a company where I can be a valuable asset, even if it means to start at the lowest level to
+                keep
+                learning and growing within the company to become a better developer.
+                I am very trustworthy, loyal, hardworking, punctual and creative. I also enjoy working in a team
+                environment. Please contact me below to learn more and I will get back to you soonest!
+              </p>
+            </div>
+            <div class="col-md-5 d-flex flex-column justify-content-start align-items-start">
+              <img class="about-img img-fluid rounded-circle d-none d-md-block" src="/assets/img/Hylton.png" alt="portrait image">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
+  </section>
 
   <!-- FOOTER -->
 
@@ -104,7 +106,7 @@
         <div class="col-md-6 p-0">
           <br>
           <p class="align-self-start text-left">
-            Hylton Walters Portfolio &copy; <span id="year"></span>
+            Hylton Walters <span class="txt" style="border:none;">Portfolio</span> &copy; <span id="year"></span>
           </p>
         </div>
         <div class="col-md-6 btn-footer p-0">
@@ -118,6 +120,7 @@
   <!-- SCRIPTS -->
   <script src="/assets/js/jquery-3.3.1.min.js"></script>
   <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/loader.js"></script>
   <script src="/assets/js/main.js"></script>
 
 </body>

@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/contact.css">
+  <link rel="stylesheet" href="/assets/css/@media.css">
   <link rel="stylesheet" href="/assets/css/materialize.min.css">
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <title>Contact Me</title>
@@ -18,128 +19,130 @@
 
 <body>
 
-  <!-- MENU OVERLAY -->
+  <div id="loader"></div>
 
-  <div class="icon">
-    <div class="hamburger"></div>
-  </div>
-  <div class="overlay"></div>
-  <div class="menu">
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="about.html">About</a>
-      </li>
-      <li>
-        <a href="work.html">Work</a>
-      </li>
-      <li>
-        <a href="resume.html">Resume</a>
-      </li>
-      <li class="active">
-        <a href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
+  <header class="header">
+
+    <!-- ICON -->
+    <section class="nav-icon">
+      <span class="icon"></span>
+    </section>
+
+    <!-- MENU OVERLAY -->
+    <section class="nav-overlay"></section>
+
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <ul class="navigation_ul">
+        <li><a href="index.html" data-text="Home">Home</a></li>
+        <li><a href="about.html" data-text="About">About</a></li>
+        <li><a href="work.html" data-text="Work">Work</a></li>
+        <li><a href="resume.html" data-text="Resume">Resume</a></li>
+        <li class="active"><a href="contact.html" data-text="Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!--PAGE HEADER-->
 
-  <header id="page-header" class="overlay-header">
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 p-2 m-auto text-center text-white">
-            <h1>Contact <span class="txt" style="border-right:none;">Me</span></h1>
-          </div>
-        </div>
-      </div>
-  </header>
+  <section class="content">
 
-  <!-- CONTACT SECTION -->
-
-  <main>
-    <h2 class="contact-heading text-center d-none d-md-block my-2">Get In Touch...</h2>
-    <p class="lead contact-sub d-none d-md-block mt-2">Please contact me below for more information about me or for a
-      great career opportunity is on offer. Please use the contact form below to get in touch with me and I will get
-      back to you
-      soonest. I live in the Kraaifontein / Brackenfell area in the Northern Suburbs of Cape Town. I am willing to
-      relocate if it so happens to
-      be as per my employment. Please dont hesitate to get in touch with me below...</p>
-    <hr class="d-none d-md-block" style="width:400px;">
-    <section id="contact" class="section section-contact-box center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <!-- CONTACT BOXES -->
-
-            <section id="contact-showcase">
-              <div class="container">
-                <div class="box m-2">
-                  <div class="iconn"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                  <div class="details">
-                    <h3>Kraaifontein, CT</h3>
-                  </div>
-                </div>
-                <div class="box m-2">
-                  <div class="iconn"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                  <div class="details">
-                    <h3>+27-62-573-2310</h3>
-                  </div>
-                </div>
-                <div class="box m-2">
-                  <div class="iconn"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                  <div class="details">
-                    <h3>hyltonjean@gmail.com</h3>
-                  </div>
-                </div>
+    <main class="main-content">
+      <section id="page-header" class="overlay-header">
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 p-2 m-auto text-center text-white">
+                <h1>Contact <span class="txt" style="border-right:none;">Me</span></h1>
               </div>
-            </section>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Form & Google Map -->
+      <!-- CONTACT SECTION -->
 
-    <section id="contact" class="section section-contact center">
+      <h2 class="contact-heading text-center d-none d-md-block my-2">Get In Touch...</h2>
+      <p class="lead contact-sub d-none d-md-block mt-2">Please contact me below for more information about me or for a
+        great career opportunity is on offer. Please use the contact form below to get in touch with me and I will get
+        back to you
+        soonest. I live in the Kraaifontein / Brackenfell area in the Northern Suburbs of Cape Town. I am willing to
+        relocate if it so happens to
+        be as per my employment. Please dont hesitate to get in touch with me below...</p>
+      <hr class="d-none d-md-block" style="width:400px;">
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13256.389160128007!2d18.6947617!3d-33.83560155!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1539473587998"
-        width="1920" height="500" id="googlemap" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <section id="contact" class="section section-contact-box center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
 
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 offset-m6">
-            <div class="card-panel z-depth-5">
-              <h4>Contact Me</h4>
-              <form action="https://formspree.io/hyltonjean@gmail.com" method="POST">
-                <div class="input-field">
-                  <input type="text" class="name" name="name" placeholder="Name">
-                  <label for="name">Name</label>
+              <!-- CONTACT BOXES -->
+
+              <section id="contact-showcase">
+                <div class="container">
+                  <div class="box m-2">
+                    <div class="iconn"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="details">
+                      <h3>Kraaifontein, CT</h3>
+                    </div>
+                  </div>
+                  <div class="box m-2">
+                    <div class="iconn"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="details">
+                      <h3>+27-62-573-2310</h3>
+                    </div>
+                  </div>
+                  <div class="box m-2">
+                    <div class="iconn"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="details">
+                      <h3>hyltonjean@gmail.com</h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="input-field">
-                  <input type="email" class="email" name="replyto" placeholder="Email">
-                  <label>Email</label>
-                </div>
-                <div class="input-field">
-                  <input type="text" class="phone" name="phone" placeholder="Phone Number">
-                  <label>Phone</label>
-                </div>
-                <div class="input-field">
-                  <textarea class=" message materialize-textarea" name="message" placeholder="Message"></textarea>
-                  <label>Message</label>
-                  <div class="status text-dark"></div>
-                </div>
-                <input class="submit btn amber z-depth-4" type="submit" value="Send">
-              </form>
+              </section>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+
+      <!-- Contact Form & Google Map -->
+
+      <section id="contact" class="section section-contact center">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13256.389160128007!2d18.6947617!3d-33.83560155!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1539473587998"
+          width="1920" height="500" id="googlemap" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6 offset-m6">
+              <div class="card-panel z-depth-5">
+                <h4>Contact Me</h4>
+                <form action="https://formspree.io/hyltonjean@gmail.com" method="POST">
+                  <div class="input-field">
+                    <input type="text" class="name" name="name" placeholder="Name">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="email" class="email" name="replyto" placeholder="Email">
+                    <label>Email</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="text" class="phone" name="phone" placeholder="Phone Number">
+                    <label>Phone</label>
+                  </div>
+                  <div class="input-field">
+                    <textarea class=" message materialize-textarea" name="message" placeholder="Message"></textarea>
+                    <label>Message</label>
+                    <div class="status text-dark"></div>
+                  </div>
+                  <input class="submit btn amber z-depth-4" type="submit" value="Send">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
 
   <!-- FOOTER -->
 
@@ -149,7 +152,7 @@
         <div class="col-md-6 mt-1 pt-3">
           <br>
           <p class="align-self-start text-left">
-            Hylton Walters Portfolio &copy; <span id="year"></span>
+            Hylton Walters <span class="txt" style="border:none;">Portfolio</span> &copy; <span id="year"></span>
           </p>
         </div>
         <div class="col-md-6 btn-footer mt-4">
@@ -165,6 +168,7 @@
   <script src="/assets/js/jquery-3.3.1.min.js"></script>
   <script src="/assets/js/materialize.min.js"></script>
   <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/loader.js"></script>
   <script src="/assets/js/validation.js"></script>
   <script src="/assets/js/main.js"></script>
 
